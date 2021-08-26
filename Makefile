@@ -1,4 +1,4 @@
-NAME ?= Bionicverse
+NAME ?= Bionic
 
 DATE := $(shell date "+%Y%m%d-%H%M")
 
@@ -8,7 +8,7 @@ KERNELVERSION := $(shell cat ../Makefile | grep VERSION | head -n 1 | sed "s|.*=
 
 KERNELPATCHLEVEL := $(shell cat ../Makefile | grep PATCHLEVEL | head -n 1 | sed "s|.*=||1" | sed "s| ||g")
 
-VERSION := x-alpha
+VERSION := A-1.2
 
 ZIP := $(NAME)-$(KERNELVERSION).$(KERNELPATCHLEVEL)-$(DEVICE)-$(DATE)-$(VERSION).zip
 
