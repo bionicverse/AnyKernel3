@@ -10,12 +10,12 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=lavender
-device.name2=redmi note 7
-device.name3=
-device.name4=
-device.name5=
-supported.versions=10 - 12
+device.name1=rosemary
+device.name2=rosemary_p
+device.name3=maltose
+device.name4=secret
+device.name5=Redmi Note 10S
+supported.versions=10 - 12.1
 '; } # end properties
 
 # shell variables
