@@ -15,7 +15,7 @@ device.name2=rosemary_p
 device.name3=maltose
 device.name4=secret
 device.name5=Redmi Note 10S
-supported.versions=10 - 12.1
+supported.versions=10 - 12
 '; } # end properties
 
 # shell variables
